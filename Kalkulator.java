@@ -31,6 +31,7 @@ public class Kalkulator
 	return a/b;
     }
 	
+
 	public float max (float a, float b){
 		if( a < b){
 			return b;
@@ -39,4 +40,10 @@ public class Kalkulator
 			return a;
 		}	
 	}
+
+    public float min(float a,float b){
+	if(a<b)return a;
+	else return b;
+    }
+=======
 }
